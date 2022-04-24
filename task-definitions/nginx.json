@@ -1,0 +1,15 @@
+[
+  {
+    "image": "${image_url}",
+    "essential": true,
+    "name": "${container_name}",
+    "portMappings": [
+      {
+        "containerPort": 80
+      }
+    ],
+
+    "environment": [],
+    "secrets": []
+  }
+]
